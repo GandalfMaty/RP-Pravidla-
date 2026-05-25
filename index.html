@@ -1,172 +1,169 @@
- <!DOCTYPE html>
+ <<!DOCTYPE html>
 <html lang="cs">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RP Pravidla Serveru</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emergency Hamburg RP</title>
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
-      color: white;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b1220;
+  color: white;
+  scroll-behavior: smooth;
+}
 
-    .container {
-      max-width: 950px;
-      margin: 50px auto;
-      padding: 30px;
-    }
+/* TOP */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #1e293b;
+}
 
-    h1 {
-      text-align: center;
-      font-size: 50px;
-      color: #38bdf8;
-      margin-bottom: 40px;
-      text-shadow: 0 0 15px rgba(56,189,248,0.7);
-    }
+header h1 {
+  margin: 0;
+  color: #38bdf8;
+  font-size: 38px;
+}
 
-    .box {
-      background: rgba(30, 41, 59, 0.95);
-      padding: 25px;
-      border-radius: 18px;
-      margin-bottom: 25px;
-      border-left: 6px solid #38bdf8;
-      box-shadow: 0 0 20px rgba(0,0,0,0.4);
-      transition: 0.3s;
-    }
+header p {
+  color: #94a3b8;
+}
 
-    .box:hover {
-      transform: scale(1.01);
-      box-shadow: 0 0 25px rgba(56,189,248,0.4);
-    }
+/* MENU */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #111827;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+}
 
-    h2 {
-      color: #facc15;
-      margin-top: 0;
-    }
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  background: #334155;
+  border-radius: 8px;
+}
 
-    p {
-      color: #e2e8f0;
-      line-height: 1.7;
-    }
+nav a:hover {
+  background: #38bdf8;
+  color: black;
+}
 
-    .footer {
-      text-align: center;
-      padding: 30px;
-      color: #94a3b8;
-      font-size: 14px;
-    }
+/* SECTIONS */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
 
-    .topbar {
-      width: 100%;
-      height: 6px;
-      background: linear-gradient(to right, #38bdf8, #facc15, #f43f5e);
-    }
+h2 {
+  text-align: center;
+  color: #38bdf8;
+}
 
-  </style>
+/* LINKS */
+.linkbox {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.linkbox a {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linkbox a:hover {
+  text-decoration: underline;
+}
+
+/* RULES */
+.rule {
+  background: #1e293b;
+  padding: 18px;
+  margin-bottom: 12px;
+  border-left: 5px solid #38bdf8;
+  border-radius: 10px;
+}
+
+.rule h3 {
+  margin: 0 0 8px 0;
+  color: #facc15;
+}
+
+.rule p {
+  margin: 0;
+  color: #cbd5e1;
+}
+</style>
+
 </head>
 
 <body>
 
-<div class="topbar"></div>
+<header>
+  <h1>Emergency Hamburg RP</h1>
+  <p>RP pravidla serveru</p>
+</header>
 
-<div class="container">
+<nav>
+  <a href="#youtube">YouTube</a>
+  <a href="#discord">Discord</a>
+  <a href="#rules">Pravidla</a>
+</nav>
 
-  <h1>🎮 RP Pravidla Serveru</h1>
+<!-- YOUTUBE -->
+<section id="youtube">
+  <h2>YouTube</h2>
+  <div class="linkbox">
+    <a href="https://www.youtube.com/@PETRBOOM15" target="_blank">
+      https://www.youtube.com/@PETRBOOM15
+    </a>
+  </div>
+</section>
 
-  <div class="box">
-    <h2>1. Respekt</h2>
-    <p>Chovej se slušně ke všem hráčům. Nadávky, rasismus nebo toxicita nejsou povolené. Respektuj Admin Team.</p>
+<!-- DISCORD -->
+<section id="discord">
+  <h2>Discord</h2>
+  <div class="linkbox">
+    <a href="https://discord.gg/t9uRcwg3J" target="_blank">
+      https://discord.gg/t9uRcwg3J
+    </a>
+  </div>
+</section>
+
+<!-- RULES -->
+<section id="rules">
+  <h2>RP Pravidla</h2>
+
+  <div class="rule"><h3>1. Respekt</h3><p>Chovej se slušně ke všem hráčům.</p></div>
+  <div class="rule"><h3>2. RDM</h3><p>Zákaz zabíjení bez RP důvodu.</p></div>
+  <div class="rule"><h3>3. VDM</h3><p>Zákaz zabíjení vozidlem bez RP důvodu.</p></div>
+  <div class="rule"><h3>4. FearRP</h3><p>Musíš si vážit života své postavy.</p></div>
+  <div class="rule"><h3>5. MetaGaming</h3><p>Zákaz OOC informací v RP.</p></div>
+  <div class="rule"><h3>6. PowerGaming</h3><p>Zákaz nereálných akcí.</p></div>
+  <div class="rule"><h3>7. Combat Logging</h3><p>Nesmíš se odpojovat během RP situace.</p></div>
+  <div class="rule"><h3>8. NLR</h3><p>Po smrti si nepamatuješ RP situaci.</p></div>
+  <div class="rule"><h3>9. Cheatování</h3><p>Cheaty = ban.</p></div>
+  <div class="rule"><h3>10. Trollení</h3><p>Kazení RP je zakázané.</p></div>
+  <div class="rule"><h3>11. RP jméno</h3><p>Používej realistické jméno.</p></div>
+  <div class="rule"><h3>12. Voice Chat</h3><p>Nepouštěj hudbu, používej normální mic.</p></div>
+
+  <div class="rule">
+    <h3>13. Admin rozhodnutí</h3>
+    <p>Respektuj rozhodnutí admina. Neuposlechnutí admina se trestá. Slovo admina je vždy poslední.</p>
   </div>
 
-  <div class="box">
-    <h2>2. Random Deathmatch (RDM)</h2>
-    <p>Nesmíš zabít hráče bez RP důvodu. Každé zabití musí mít důvod v rámci RP.</p>
-  </div>
+  <div class="rule"><h3>14. Bug Abuse</h3><p>Zneužívání bugů je zakázané.</p></div>
+  <div class="rule"><h3>15. Reklama</h3><p>Reklama bez povolení je zakázaná.</p></div>
 
-  <div class="box">
-    <h2>3. Vehicle Deathmatch (VDM)</h2>
-    <p>Nesmíš úmyslně zabíjet hráče vozidlem bez RP důvodu.</p>
-  </div>
-
-  <div class="box">
-    <h2>4. FearRP</h2>
-    <p>Musíš si vážit života své postavy. Když na tebe někdo míří zbraní, nemůžeš dělat, jako by se nic nedělo.</p>
-  </div>
-
-  <div class="box">
-    <h2>5. MetaGaming</h2>
-    <p>Nesmíš používat informace získané mimo RP, například Discord hovory nebo stream.</p>
-  </div>
-
-  <div class="box">
-    <h2>6. PowerGaming</h2>
-    <p>Nesmíš dělat nereálné věci, například přežít velkou nehodu bez zranění.</p>
-  </div>
-
-  <div class="box">
-    <h2>7. Combat Logging</h2>
-    <p>Nesmíš se odpojovat během RP situace.</p>
-  </div>
-
-  <div class="box">
-    <h2>8. New Life Rule (NLR)</h2>
-    <p>Po smrti si tvoje postava nepamatuje poslední RP situaci a nesmíš se ihned vracet na místo smrti.</p>
-  </div>
-
-  <div class="box">
-    <h2>9. Cheatování</h2>
-    <p>Jakékoliv cheaty, hacky nebo exploity jsou zakázané.</p>
-  </div>
-
-  <div class="box">
-    <h2>10. Trollení</h2>
-    <p>Kazení RP ostatním hráčům není povoleno.</p>
-  </div>
-
-  <div class="box">
-    <h2>11. RP Jméno</h2>
-    <p>Musíš mít realistické RP jméno. Meme nebo nevhodná jména nejsou povolena.</p>
-  </div>
-
-  <div class="box">
-    <h2>12. Voice Chat</h2>
-    <p>Používej kvalitní mikrofon a nepouštěj hlasitou hudbu do voice chatu.</p>
-  </div>
-
-  <div class="box">
-    <h2>13. Admin Situace</h2>
-    <p>Během řešení situace s adminem musíš spolupracovat a nelhat adminům.</p>
-  </div>
-
-  <div class="box">
-    <h2>14. Bug Abuse</h2>
-    <p>Zneužívání bugů je zakázané. Bugy nahlaš adminům.</p>
-  </div>
-
-  <div class="box">
-    <h2>15. Reklama</h2>
-    <p>Reklama na jiné servery bez povolení je zakázaná.</p>
-  </div>
-
-  <div class="box">
-    <h2>⚖️ Tresty</h2>
-    <p>Tresty se odvíjí podle závažnosti: warn, kick, ban na určitý čas nebo permanentní ban.</p>
-  </div>
-
-  <div class="box">
-    <h2>⭐ Hlavní pravidlo</h2>
-    <p>Používej zdravý rozum a snaž se dělat kvalitní RP pro všechny hráče.</p>
-  </div>
-
-</div>
-
-<div class="footer">
-  © RP Server 2026 • Všechna práva vyhrazena
-</div>
+</section>
 
 </body>
 </html>
